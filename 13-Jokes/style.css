@@ -1,0 +1,31 @@
+body {
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#display-joke {
+    font-size: 22px;
+    font-family: Playfair Display, serif;
+}
+
+.btn {
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 10px;
+    background: transparent;
+    color: #f3d2d9;
+    border: 2px solid white;
+    border-bottom: 1px solid rgb(234, 205, 210);
+}
+
+.btn:hover {
+    cursor: pointer;
+}

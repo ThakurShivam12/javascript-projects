@@ -1,0 +1,32 @@
+body {
+    background: rgb(17, 17, 17);
+}
+
+.header-content {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #62d316;
+    color: #181717;
+    cursor: pointer;
+}
+
+.cats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.random_cats {
+  width: 70%;
+}
+
+img {
+  width: 900px;
+}
